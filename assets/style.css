@@ -50,6 +50,34 @@ header {
   height: 2px;
 }
 
+.requirements {
+  display: flex;
+  width: 100%;
+}
+
+.requirements ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.requirements ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-around;
+  width: 100%;
+}
+
+.requirements ul li #length {
+  width: 50px;
+}
+
+.requirements ul li .check {
+  width: 25px;
+  height: 18px;
+}
+
 .card-body {
   min-height: 100px;
 }
