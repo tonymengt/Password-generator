@@ -43,10 +43,10 @@ function genPassword(length, char) {
     if (symbolEl.checked) {
       pass += selSymbol.charAt(Math.floor(Math.random() * selSymbol.length));
     } else {"";}
-
+ 
     for (var i =0; i<length-countReq; i++) {
       pass += char.charAt(Math.floor(Math.random() * char.length));
+    }
 
-  }
   return pass; 
 }
